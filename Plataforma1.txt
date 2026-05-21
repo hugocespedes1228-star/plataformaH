@@ -66,3 +66,126 @@
       transition:.4s;
       border:1px solid rgba(255,255,255,.05);
     }
+ .card:hover{
+      transform:translateY(-10px);
+      background:#263548;
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .card p{
+      color:#cbd5e1;
+      line-height:1.8;
+    }
+
+    .challenge-section{
+      background:#111827;
+    }
+
+    .challenge-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:30px;
+    }
+
+    .challenge-card{
+      background:#1f2937;
+      border-radius:24px;
+      overflow:hidden;
+      transition:.4s;
+    }
+
+    .challenge-card:hover{
+      transform:scale(1.02);
+    }
+
+    .challenge-top{
+      padding:25px;
+      background:linear-gradient(135deg,#0ea5e9,#22c55e);
+    }
+
+    .challenge-top h3{
+      font-size:1.6rem;
+    }
+
+    .challenge-content{
+      padding:30px;
+    }
+
+    .challenge-content ul{
+      margin-top:20px;
+      padding-left:20px;
+      color:#cbd5e1;
+      line-height:2;
+    }
+
+    .ranking{
+      display:flex;
+      flex-wrap:wrap;
+      gap:25px;
+      justify-content:center;
+    }
+
+    .user{
+      background:#1e293b;
+      width:250px;
+      border-radius:22px;
+      padding:30px;
+      text-align:center;
+      transition:.3s;
+    }
+
+    .user:hover{
+      transform:translateY(-8px);
+    }
+
+    .avatar{
+      width:90px;
+      height:90px;
+      border-radius:50%;
+      margin:auto;
+      margin-bottom:20px;
+      background:linear-gradient(135deg,#22c55e,#38bdf8);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:2rem;
+      font-weight:bold;
+    }
+
+    .points{
+      margin-top:12px;
+      color:#22c55e;
+      font-weight:600;
+    }
+
+    .timeline{
+      position:relative;
+      max-width:900px;
+      margin:auto;
+    }
+
+    .timeline::before{
+      content:'';
+      position:absolute;
+      left:50%;
+      width:4px;
+      background:#334155;
+      top:0;
+      bottom:0;
+      transform:translateX(-50%);
+    }
+
+    .timeline-item{
+      width:50%;
+      padding:30px;
+      position:relative;
+    }
+
+    .timeline-item:nth-child(odd){
+      left:0;
+      text-align:right;
+    }
