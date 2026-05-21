@@ -189,3 +189,44 @@
       left:0;
       text-align:right;
     }
+ <p>
+        Usuarios que transformaron sus hábitos usando HabitRush.
+      </p>
+    </div>
+
+    <div class="testimonials">
+
+      <div class="testimonial">
+        “Antes abandonaba mis objetivos rápidamente. Con los rankings y
+        recompensas ahora mantengo mis hábitos durante meses.”
+      </div>
+
+      <div class="testimonial">
+        “La subida de evidencia diaria me ayudó muchísimo a ser constante
+        y sentir compromiso con mi progreso.”
+      </div>
+
+      <div class="testimonial">
+        “Es como combinar productividad con una red social y un videojuego.
+        Súper motivador.”
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <h2>HabitRush</h2>
+
+    <p>
+      Convierte la disciplina en una experiencia social, divertida y competitiva.
+      Crea hábitos duraderos mediante retos diarios y una comunidad activa.
+    </p>
+
+    <button class="btn">Únete ahora</button>
+
+  </footer>
+
+</body>
+</html>
